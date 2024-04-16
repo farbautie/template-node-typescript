@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "target": "ES2016",
+        "strict": true,
+        "allowJs": true,
+        "outDir": "./dist",
+        "baseUrl": ".",
+        "rootDir": "./src",
+        "removeComments": true,
+        "esModuleInterop": true,
+        "paths": {
+            "@/*": ["./src/*"]
+        },
+        "typeRoots": ["./node_modules/@types"],
+        "forceConsistentCasingInFileNames": true,
+        "skipLibCheck": true,
+        "strictNullChecks": true
+    },
+    "include": ["./src/**/*"],
+    "exclude": ["node_modules"]
+}
