@@ -8,6 +8,8 @@
         "rootDir": "./src",
         "removeComments": true,
         "esModuleInterop": true,
+        "moduleResolution": "NodeNext",
+        "module": "NodeNext",
         "paths": {
             "@/*": ["./src/*"]
         },
